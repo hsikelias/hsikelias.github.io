@@ -1,14 +1,8 @@
 /*
 file: style.css
 
-includes all the default stylings, common variables and components that are repeated many times in the portfolio.
+includes all the overiding default stylings, common components that are repeated many times in the portfolio.
 */
-:root {
-    --bg-color: #FFDC0C;
-    --base-red: #E53937;
-    --base-pink: #FB20A0;
-
-}
 
 *{
     margin: 0px;
@@ -20,28 +14,16 @@ html{
     background-color: var(--bg-color);
 }
 
-body{
-}
-
-p{
-}
-
-h1{
-}
-
-h2{
-}
-
 /* NAV HEADER */
 
 #nav-header{
-
+    padding: 1.2rem 1rem;
+    position: sticky; 
 }
 
 #nav-header ul{
     display: flex;
     align-items: flex-start;
-    /* justify-content: space-between; */
     gap: 3rem;
 }
 
@@ -49,9 +31,18 @@ h2{
     list-style: none;
 }
 
-#nav-header ul li a{
-    font-size: 2rem; /* 32px */
+#nav-header ul li .nav-text{
+    font-size: 2.5rem; /* 32px */
     font-family: "Bahiana",sans-serif;
     color: var(--base-red);
     text-decoration: underline wavy var(--base-pink) 6%;
+    text-underline-offset: 6px;
+}
+
+#nav-header ul li a img{
+    font-size: 2.5rem; /* 32px */
+    font-family: "Bahiana",sans-serif;
+    image-rendering: pixelated;
+    height: 64px;
+    margin-top: -0.5rem;
 }

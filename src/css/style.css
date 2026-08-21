@@ -1,0 +1,57 @@
+/*
+file: style.css
+
+includes all the default stylings, common variables and components that are repeated many times in the portfolio.
+*/
+:root {
+    --bg-color: #FFDC0C;
+    --base-red: #E53937;
+    --base-pink: #FB20A0;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: var(--bg-color);
+}
+
+body{
+}
+
+p{
+}
+
+h1{
+}
+
+h2{
+}
+
+/* NAV HEADER */
+
+#nav-header{
+
+}
+
+#nav-header ul{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 3rem;
+}
+
+#nav-header ul li{
+    list-style: none;
+}
+
+#nav-header ul li a{
+    font-size: 2rem; /* 32px */
+    font-family: "Bahiana",sans-serif;
+    color: var(--base-red);
+    text-decoration: underline wavy var(--base-pink) 6%;
+}

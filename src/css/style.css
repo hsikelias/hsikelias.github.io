@@ -18,7 +18,7 @@ html{
 
 #nav-header{
     padding: 1.2rem 1rem;
-    position: sticky; 
+    position: sticky; /* IMP: doesn't do anything right now */ 
 }
 
 #nav-header ul{
@@ -45,4 +45,11 @@ html{
     image-rendering: pixelated;
     height: 64px;
     margin-top: -0.5rem;
+}
+
+
+/* INTERACTIONS */
+
+#nav-header ul li .nav-text:hover{
+    text-decoration: underline solid var(--base-pink) 6%;
 }

@@ -1,0 +1,41 @@
+#hero-name{
+    background-color: var(--base-bright-white);
+    min-height: 350px;
+    padding: 1rem 5rem;
+    padding-bottom: 2rem;
+}
+
+#hero-name h1{
+    font-family: "BBH Hegarty", Arial, Helvetica, sans-serif;
+    font-size: 20rem;
+    font-weight: 400;
+
+    
+    color: var(--bg-color);
+    -webkit-text-stroke: 5px #000000;
+    letter-spacing: 1rem;
+
+    text-shadow: var(--base-pink) 13px 12px;
+
+
+    cursor: pointer;
+    
+
+}
+
+#hero-name p{
+    color: var(--base-pink);
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.6rem;
+
+    margin-left: 12rem;
+    margin-top: -2rem;
+    width: fit-content;
+}
+
+
+/* INTERACTIONS BELOW */
+
+#hero-name h1:hover{
+    text-shadow: var(--base-red) 13px 12px;
+}

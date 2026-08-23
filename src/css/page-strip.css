@@ -1,0 +1,16 @@
+.blue-page-strip{
+    height: 3.125rem;
+
+    background-color: var(--base-bright-white);
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/* INTERACTIONS */
+
+.black-card::selection{
+    background-color: var(--base-bright-white);
+    color: #000;
+}

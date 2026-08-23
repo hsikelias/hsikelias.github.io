@@ -1,7 +1,7 @@
 /*
 file: style.css
 
-includes all the overiding default stylings, common components that are repeated many times in the portfolio.
+includes all the overiding default stylings, globabl styles, common components that are repeated many times in the portfolio.
 */
 
 *{
@@ -18,7 +18,9 @@ html{
 
 #nav-header{
     padding: 1.2rem 1rem;
-    position: sticky; /* IMP: doesn't do anything right now */ 
+    position: fixed; /* IMP: doesn't do anything right now */ 
+    background-color: var(--bg-color);
+    width: 100%;
 }
 
 #nav-header ul{

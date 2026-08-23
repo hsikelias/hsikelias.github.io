@@ -2,13 +2,15 @@
     background-color: var(--base-bright-white);
     min-height: 350px;
     padding: 1rem 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
 }
 
 #hero-name h1{
     font-family: "BBH Hegarty", Arial, Helvetica, sans-serif;
-    font-size: 20rem;
+    font-size: 25rem;
     font-weight: 400;
+
+    margin-top: 5rem;
 
     
     color: var(--bg-color);
@@ -20,13 +22,12 @@
 
     cursor: pointer;
     
-
 }
 
 #hero-name p{
     color: var(--base-pink);
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 
     margin-left: 12rem;
     margin-top: -2rem;

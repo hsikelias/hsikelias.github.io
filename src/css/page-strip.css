@@ -1,16 +1,31 @@
 .blue-page-strip{
+    display: flex;
+    gap: 3rem;
+
     height: 3.125rem;
 
     background-color: var(--base-bright-white);
 
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+}
+
+.blue-box{
+    height: 3.125rem;
+    width: 3rem;
+
+    background-color: var(--base-blue);
+    
+}
+
+.pink-page-strip{
+    height: 3.125rem;
+
+    background-color: var(--base-bright-white);
+
+    margin-top: 5rem;
     margin-bottom: 3rem;
 }
-
-
 /* INTERACTIONS */
 
-.black-card::selection{
-    background-color: var(--base-bright-white);
-    color: #000;
-}

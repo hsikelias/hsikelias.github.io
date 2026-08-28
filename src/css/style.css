@@ -10,7 +10,9 @@ includes all the overiding default stylings, globabl styles, common components t
     box-sizing: border-box;
 }
 
-html{
+html, body{
+    /* max-width: 100%; */
+    /* overflow-x: hidden; */
     background-color: var(--bg-color);
 }
 

@@ -1,0 +1,15 @@
+body{
+    cursor: url("../assets/cursor/cursor_default-96.png"), auto;
+}
+
+a{
+    cursor: url("../assets/cursor/cursor_hover-96.png"), pointer;
+}
+
+h1{
+    cursor: url("../assets/cursor/cursor_hover-96.png"), pointer;
+}
+
+.nav-text:active{
+    cursor: url(../assets/cursor/cursor_click.png), pointer;
+}

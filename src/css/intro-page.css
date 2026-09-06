@@ -1,0 +1,16 @@
+
+.intro-container{
+    background-color: var(--base-bright-white);
+
+    width: 60rem;
+    height: 40rem;
+
+    margin-left: 18rem;
+    margin-top: 10rem;
+}
+
+#intro-text p{
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.5rem;
+}

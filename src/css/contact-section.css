@@ -1,0 +1,53 @@
+#contact-section{
+    padding-top: 15rem;
+}
+
+#contact-heading-idea{
+    font-family: "BBH Hegarty", sans-serif;
+    color: var(--base-red);
+
+    font-size: 7.7vw;
+    text-align: center;
+
+    padding-bottom: 2rem;
+
+}
+
+#contact-heading-make{
+    font-family: "BBH Hegarty", sans-serif;
+    color: transparent;
+    font-size: 6.5vw;
+
+    -webkit-text-stroke: 0.3rem var(--base-blue);
+    text-align: center;
+
+    margin-bottom: 40rem;
+}
+
+#contact-links{
+    text-align: center;
+}
+
+#contact-btn a{
+    font-family: "Pixelify Sans", sans-serif;
+    color: var(--base-red);
+    font-size: 14.35vw;
+
+    /* -webkit-text-stroke: 0.3rem var(--base-red); */
+    text-decoration: none;
+    letter-spacing: 1rem;
+}
+
+#resume-btn a{
+    font-family: "Pixelify Sans", sans-serif;
+    color: transparent;
+    font-size: 9.1vw;
+
+    -webkit-text-stroke: 0.3rem var(--base-blue);
+    letter-spacing: 0.6rem;
+
+}
+
+
+
+/* INTERACTIONS */

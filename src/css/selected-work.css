@@ -10,16 +10,61 @@
     font-size: 10rem;
 
     text-decoration: underline wavy var(--base-blue) 4%;
-    text-underline-offset: 20px;
+    text-underline-offset: 2rem;
 }
 
 #selected-work-container p{
     font-family: "Alef";
+    font-weight: 400;
+    font-size: 1.8rem;
+
+
+    padding-top: 5rem;
 }
+
+#selected-work-container h3{
+    font-family: "BBH Hegarty", sans-serif;
+    font-size: 5rem;
+
+    color: var(--base-red);
+}
+
+#selected-work-container a{
+    padding-left: 3rem;
+    color: var(--base-blue);
+
+    text-decoration: underline wavy var(--base-blue) 6%;
+    text-underline-offset: 1rem;
+}
+
 
 /* INTERACTIONS */
 
+#selected-work-container h2:hover{
+    text-decoration: underline solid var(--base-blue) 4%;
+}
+
+
 #selected-work-container h2::selection{
+    color: var(--bg-color);
+    background-color: var(--base-blue);
+}
+
+#selected-work-container p::selection{
+    color: var(--bg-color);
+    background-color: black;
+}
+
+#selected-work-container h3::selection{
+    color: var(--bg-color);
+    background-color: var(--base-red);
+}
+
+#selected-work-container a:hover{
+    text-decoration: underline solid var(--base-blue) 6%;
+}
+
+#selected-work-container a::selection{
     color: var(--bg-color);
     background-color: var(--base-blue);
 }

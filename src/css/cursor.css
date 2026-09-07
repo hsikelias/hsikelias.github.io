@@ -10,6 +10,14 @@ h1{
     cursor: url("../assets/cursor/cursor_hover_96.png"), pointer;
 }
 
+#selected-work-heading, #contact-heading-idea, #contact-heading-make{
+    cursor: url("../assets/cursor/cursor_hover_96.png"), pointer;
+}
+
 .nav-text:active{
     cursor: url(../assets/cursor/cursor_click_32.png), pointer;
 }
+
+/* #contact-heading-idea{
+    cursor: url("../assets/cursor/cursor_hover_96.png"), pointer;
+} */

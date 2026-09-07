@@ -8,9 +8,14 @@
 
     font-weight: 400;
     font-size: 10rem;
+
+    text-decoration: underline wavy var(--base-blue) 4%;
+    text-underline-offset: 20px;
 }
 
-
+#selected-work-container p{
+    font-family: "Alef";
+}
 
 /* INTERACTIONS */
 

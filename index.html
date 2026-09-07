@@ -49,16 +49,16 @@
     </head>
 
 
-    <body onclick="click_play()">
+    <body>
         
         <!--TODO: need to make the sound work. -->
         <audio id="click-sound" src="src/assets/audio/click.wav"></audio>
-        <audio class="hover-sound" src="src/assets/audio/hover.wav"></audio>
+        <audio id="hover-sound-source" src="src/assets/audio/hover.wav"></audio>
 
         <header id="nav-header">
             <ul>
                 <li><a href="index.html"><img src="src/assets/portfolio-logo-128.png" alt="portfolio logo"></a></li>
-                <li><a href="../src/pages/work.html" class="nav-text">WORK</a></li>
+                <li><a href="../src/pages/work.html" class="nav-text" class="hover-sound">WORK</a></li>
                 <li><a href="../src/pages/blogs.html" class="nav-text">BLOGS</a></li>
                 <li><a href="../src/pages/sketchbook.html" class="nav-text">SKETCHBOOK</a></li>
                 <li><a href="../src/pages/about.html" class="nav-text">ABOUT</a></li>
@@ -67,7 +67,7 @@
         
 
         <main>
-            <div id="hero-name">
+            <div id="hero-name" class="hover-sound">
                 <h1>LEKISH</h1>
                 <p>creating under the name "Vann Neil"</p>
             </div>
@@ -106,6 +106,7 @@
 
 
         <section id="selected-work-page">
+            <!-- //TODO: NEED TO  ADD THE STARSS-->
             <div id="selected-work-container">
                 <h2>Selected work</h2>
                 <p>TIP: click on the projects to learn more about them!</p>

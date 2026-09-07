@@ -11,32 +11,46 @@
 }
 
 
+/* Scale role labels and their offsets from one shared font size. */
+#hero-roles{
+    font-size: min(2vw, 1.8rem);
+}
+
+#hero-roles .black-card{
+    font-size: inherit;
+    padding: 0.2em 0.4em;
+    margin-bottom: 0.3em;
+}
+
+
 #role-creativedev{
-    margin-left: 2rem;
-    margin-top: 4rem;
+    margin-left: 1.1em;
+    margin-top: 2.2em;
 }
 
 #role-frontenddev{
-    margin-left: 20rem;
-    margin-top: 2rem;
+    margin-left: 6em;
+    margin-top: 1.1em;
 }
 
 #role-uxuidev{
-    margin-left: 3.5rem;
+    margin-top: 0.8em;
+    margin-left: 1.9em;
 }
 
 #role-illustrator{
-    margin-left: 28rem;
-    margin-top: -1rem;
+    margin-left: 15.5em;
+    margin-top: -0.5em;
 }
 
 #role-interdesigner{
-    margin-left: 10rem;
-    margin-top: 2rem;
+    margin-left: 5.5em;
+    margin-top: 1.1em;
 }
 
 #role-digartist{
-    margin-left: 35rem;
+    margin-left: 16.4em;
+    margin-top: 1em;
 }
 
 
@@ -45,3 +59,6 @@
     background-color: var(--base-bright-white);
     color: #000;
 }
+
+
+/* RESPONSIVE DESIGN */

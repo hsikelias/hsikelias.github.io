@@ -9,12 +9,12 @@
         <meta name="description" content="Portfolio of a creative developer, passionate about storytelling and experimenting with different stuff">
         <meta name="keywords" content="creative,portfolio,pop,retro,developer">
 
-
+        
         <link rel="icon" type="image/png" href="src/public/favicon-32.png" sizes="32x32"> 
         <link rel="icon" type="image/png" href="src/public/favicon-128.png" sizes="128x128"> 
         <link rel="icon" type="image/png" href="src/public/favicon-256.png" sizes="256x256"> 
         <link rel="apple-touch-icon" href="/src/public/favicon-128.png">
-
+        
 
         <!-- facebook meta info -->
         <meta property="og:url" content="{{pageUrl}}">
@@ -23,7 +23,7 @@
         <meta property="og:title" content="{{pageTitle}}">
         <meta property="og:site_name" content="{{siteTitle}}">
         <meta property="og:see_also" content="{{homepageUrl}}">
-
+        
         <!-- fonts and other imports -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +35,7 @@
 
         <!-- CSS and Scripts mmmyeah-->
         <link rel="author" href="humans.txt"/>
+        
         <link rel="stylesheet" href="/src/css/variables.css">
         <link rel="stylesheet" href="/src/css/style.css">
         <link rel="stylesheet" href="/src/css/cursor.css">
@@ -42,22 +43,28 @@
         <link rel="stylesheet" href="/src/css/black-card.css">
         <link rel="stylesheet" href="/src/css/page-strip.css">
         <link rel="stylesheet" href="/src/css/intro-page.css">
+        <link rel="stylesheet" href="/src/css/selected-work.css">
 
+        <script src="src/js/audio.js" defer></script>
     </head>
 
 
-    <body>
-        <header>
-            <nav id="nav-header">
-                <ul>
-                    <li><a href="index.html"><img src="src/assets/portfolio-logo-128.png" alt="portfolio logo"></a></li>
-                    <li><a href="../src/pages/work.html" class="nav-text">WORK</a></li>
-                    <li><a href="../src/pages/blogs.html" class="nav-text">BLOGS</a></li>
-                    <li><a href="../src/pages/sketchbook.html" class="nav-text">SKETCHBOOK</a></li>
-                    <li><a href="../src/pages/about.html" class="nav-text">ABOUT</a></li>
-                </ul>
-            </nav>
+    <body onclick="click_play()">
+        
+        <!--TODO: need to make the sound work. -->
+        <audio id="click-sound" src="src/assets/audio/click.wav"></audio>
+        <audio class="hover-sound" src="src/assets/audio/hover.wav"></audio>
+
+        <header id="nav-header">
+            <ul>
+                <li><a href="index.html"><img src="src/assets/portfolio-logo-128.png" alt="portfolio logo"></a></li>
+                <li><a href="../src/pages/work.html" class="nav-text">WORK</a></li>
+                <li><a href="../src/pages/blogs.html" class="nav-text">BLOGS</a></li>
+                <li><a href="../src/pages/sketchbook.html" class="nav-text">SKETCHBOOK</a></li>
+                <li><a href="../src/pages/about.html" class="nav-text">ABOUT</a></li>
+            </ul>
         </header>
+        
 
         <main>
             <div id="hero-name">
@@ -79,27 +86,19 @@
             </section>
 
             <div class="blue-page-strip">
-                <div class="blue-box"></div>
-                <div class="blue-box"></div>
-                <div class="blue-box"></div>
             </div>
         </main>
-
-
-
 
 
         <section id="intro-page">
             <div class="intro-container">
                 <div id="intro-text">
-                    <p>hihihi</p>
                 </div>
 
-                <!-- UC LOGO ANIMATION COMES HERE -->
+                <img src="src/assets/UC_Logo.png" alt="UC_Logo" width="400px">
             </div>
 
             <div class="pink-page-strip">  
-                <div class=""></div>
             </div>
         </section>
 
@@ -107,16 +106,20 @@
 
 
         <section id="selected-work-page">
-            <h2>Selected woork</h2>
-            <p>TIP: click on the projects to learn more about them!</p>
+            <div id="selected-work-container">
+                <h2>Selected work</h2>
+                <p>TIP: click on the projects to learn more about them!</p>
 
 
-            <p>Like what you see?? <span><a href="src/pages/work.html">view more</a></span></p>
+                <p>Like what you see?? <span><a href="src/pages/work.html">view more</a></span></p>
+            </div>
 
             <div class="green-page-strip">
-
             </div>
         </section>
+
+
+
 
         <section id="work-philosophy-page">
             <h2>HOW I APPROACH MY WORK.</h2>
@@ -151,8 +154,8 @@
             <!--TODO: Need to add fishes images -->
 
             <div class="orange-page-strip">
-
             </div>
+
         </section>
 
         <section id="contact-section">
@@ -163,7 +166,6 @@
 
             <a href="plekishsai@gmail.com">CONTACT ME</a>
             <a href="" download="">DOWNLOAD RESUME</a>
-
         </section>
 
         <footer>

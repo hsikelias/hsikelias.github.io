@@ -51,3 +51,26 @@
 
 
 /* INTERACTIONS */
+
+#contact-heading-idea::selection{
+    background-color: var(--base-red);
+    color: var(--bg-color);
+}
+
+
+#contact-heading-make::selection{
+    background-color: var(--base-blue);
+    color: var(--bg-color);
+}
+
+
+#contact-btn a::selection{
+    background-color: var(--base-red);
+    color: var(--bg-color);
+}
+
+
+#resume-btn a::selection{
+    background-color: var(--base-blue);
+    color: var(--bg-color);
+}

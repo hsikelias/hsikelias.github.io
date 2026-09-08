@@ -1,4 +1,4 @@
-const audio = new Audio('src/assets/audio/hover-sharp.mp3');
+// const audio = new Audio('src/assets/audio/hover-sharp.mp3');
 
 const hoverElements = document.querySelectorAll('.hover-sound');
 const hoverSound = new Audio('src/assets/audio/hover-wavy.wav');
@@ -12,7 +12,7 @@ hoverElements.forEach(element => {
 });
 
 
-document.addEventListener('click', () => {
-    audio.play();
-    console.log("CLICK!"); 
-});
+// document.addEventListener('click', () => {
+//     audio.play();
+//     console.log("CLICK!"); 
+// });

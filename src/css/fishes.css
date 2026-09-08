@@ -1,0 +1,55 @@
+/* Original PNG: 1111 x 1060; visible artwork: x84 y172, 880 x 620.
+   Crop only the transparent border in CSS; keep the source assets intact. */
+.fish-cutout {
+    position: relative;
+    aspect-ratio: 880 / 620;
+    overflow: hidden;
+}
+
+.fish-cutout img {
+    position: absolute;
+    display: block;
+    width: 126.25%;
+    max-width: none;
+    height: auto;
+    left: -9.545455%;
+    top: -27.741935%;
+    margin: 0;
+    transform: none;
+}
+
+.fish-green {
+    grid-column: 1;
+    grid-row: 1;
+    width: 70%;
+    margin-top: -2rem;
+    transform: rotate(20deg);
+    left: -10rem;
+    top: -2rem;
+}
+
+.fish-blue {
+    grid-column: 1;
+    grid-row: 2;
+    width: 130%;
+    transform: rotate(-5deg);
+    left: -10rem;
+}
+
+.fish-red {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    width: 55%;
+    margin-top: 0.25rem;
+    transform: rotate(-15deg);
+}
+
+.fish-orange {
+    width: 100%;
+    flex: none;
+    margin-block: 5%;
+    transform: rotate(-26deg);
+
+    left: -6rem;
+    top: -10rem;
+}

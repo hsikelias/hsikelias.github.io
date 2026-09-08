@@ -39,7 +39,6 @@
     height: 3.125rem;
 
     margin-top: 5rem;
-    margin-bottom: 3rem;
 
     background-image: repeating-linear-gradient(
         -90deg,
@@ -57,7 +56,7 @@
 
     height: 3.125rem;
 
-    margin-top: 5rem;
+    margin-top: -10rem;
 
     background-image: repeating-linear-gradient(
         -90deg,

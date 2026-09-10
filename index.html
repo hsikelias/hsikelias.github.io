@@ -55,8 +55,7 @@
 
     <body>
         
-        <!--TODO: need to make the sound work. -->
-        <audio id="click-sound" src="src/assets/audio/click.wav"></audio>
+        <!--TODO: need to make the hover sound work for mutliple elements. -->
         <audio id="hover-sound-source" src="src/assets/audio/hover.wav"></audio>
 
         <header id="nav-header">
@@ -86,7 +85,9 @@
                     <p class="black-card" id="role-digartist">digital artist</p>
                 </div>
 
-                <!-- PORTRAIT PIC COMES HERE -->
+                <div id="hero-portrait">
+                    <img src="src/assets/portraits/faces1.png" alt="">
+                </div>
             </section>
 
             <div class="blue-page-strip">
@@ -98,7 +99,7 @@
             <div class="intro-container">
                 <div id="intro-text">
                 </div>
-
+                <!-- temp uc logo-->
                 <img src="src/assets/UC_Logo.png" alt="UC_Logo" width="400px">
             </div>
 
@@ -116,21 +117,21 @@
                 <p>TIP: click on the projects to learn more about them!</p>
 
                 <div class="project-grid-container">
-                    <div class="project-card">
+                    <div class="project-card" class="hover-sound">
                         <a href="#">
                             <img src="src/assets/projects/dawg.jpg">
                         </a>
                         <p class="black-card"> illustration</p>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card" class="hover-sound">
                         <a href="#">
                             <img src="src/assets/projects/dawg2.jpg">
                         </a>
                         <p class="black-card"> ui/ux design</p>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card" class="hover-sound">
                         <a href="#">
                             <img>
                         </a>
@@ -138,21 +139,21 @@
                     </div>
 
 
-                    <div class="project-card">
+                    <div class="project-card" class="hover-sound">
                         <a href="#">
                             <img src="src/assets/projects/coming.png">
                         </a>
                         <p class="black-card"> software dev</p>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card" class="hover-sound">
                         <a href="#">
                             <img src="src/assets/projects/coming.png">
                         </a>
                         <p class="black-card"> software dev</p>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card" class="hover-sound">
                         <a href="#">
                             <img src="src/assets/projects/coming.png">
                         </a>
@@ -169,7 +170,7 @@
                         <img src="src/assets/emoji-smile.png" alt="">
                     </h3>
 
-                    <a href="src/pages/work.html">view more</a>
+                    <a href="src/pages/work.html" class="hover-sound">view more</a>
                 </div>
             </div>
 
@@ -233,9 +234,10 @@
             <h2 id="contact-heading-make">LET'S MAKE IT HAPPEN</h2>
            
             <div id="contact-links">
-                <h2 id="contact-btn"><a href="mailto:plekishsai@gmail.com">CONTACT ME</a></h2>
+                <!-- TODO: AUTOMATIC EMAIL COPY TO USER CLIPBOARD -->
+                <h2 id="contact-btn" class="hover-sound"><a href="mailto:plekishsai@gmail.com">CONTACT ME</a></h2>
                 <!-- TODO: NEED TO ADD ACTUAL RESUME -->
-                <h2 id="resume-btn"><a href="src/assets/resume.pdf" download="LekishResume">DOWNLOAD RESUME</a></h2>
+                <h2 id="resume-btn" class="hover-sound"><a href="src/assets/resume.pdf" download="LekishResume">DOWNLOAD RESUME</a></h2>
             </div>
         </section>
 

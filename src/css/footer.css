@@ -1,50 +1,10 @@
-#social-icons{
+#socials-group{
     display: flex;
     gap: 2rem;
 
     justify-content: center;
 
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
 }
 
-
-#email-icon{
-    background-color: var(--base-red);
-    width: 80px;
-    height: 80px;
-}
-
-#insta-icon{
-    background-color: var(--base-red);
-    width: 80px;
-    height: 80px;
-}
-
-#linkedin-icon{
-    background-color: var(--base-red);
-    width: 80px;
-    height: 80px;
-
-}
-
-#github-icon{
-    background-color: var(--base-red);
-    width: 80px;
-    height: 80px;
-
-}
-
-#letterboxd-icon{
-    background-color: var(--base-red);
-    width: 80px;
-    height: 80px;
-
-}
-
-#spotify-icon{
-    background-color: var(--base-red);
-    width: 80px;
-    height: 80px;
-
-}

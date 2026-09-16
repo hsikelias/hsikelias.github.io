@@ -1,0 +1,256 @@
+
+
+.box{
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    margin: auto;
+    margin-top: 40px;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+.cool-text{
+    font-family: "BBH Hegarty";
+    font-family: "BBH Hegarty";
+    font-weight: 400;
+    font-size: 200px;
+    color: var(--base-pink);
+    text-align: center;
+
+}
+
+.cool-text:hover{
+
+    animation-name: textanimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes textanimation{
+
+
+    /* PINK PINK PINK */
+
+
+    0%{
+        font-family: "BBH Hegarty";
+        font-weight: 400;
+        font-size: 200px;
+        color: var(--base-pink)
+    }
+
+    10%{
+        font-family: "BBH Hegarty";
+        font-weight: 400;
+        font-size: 200;
+        color: var(--base-pink);
+    }
+
+    5%{
+        font-family: "BBH Hegarty";
+        font-weight: 400;
+        font-size: 200;
+        color: #ffc5e7;
+    }
+
+
+    
+    /* GREEN GREEN */
+
+    20%{
+        font-family: "Bruno Ace SC";
+        font-weight: 400;
+        font-size: 200px;
+        color: #37ce43;
+    }
+
+    28%{
+        font-family: "Bruno Ace SC";
+        font-weight: 400;
+        font-size: 200px;
+        color: #37ce43;
+    }
+
+    25%{
+        font-family: "Bruno Ace SC";
+        font-weight: 400;
+        font-size: 200px;
+        color: #7bf985;
+    }
+
+
+
+    /* -0-00-0-0-0-0-0-0-0-0-0- */
+
+    
+    35%{
+        font-family: "Kumar One Outline";
+        font-weight: 400;
+        font-size: 200px;
+        color: #0bcec8;
+    }
+
+
+    37%{
+        font-family: "Kumar One Outline";
+        font-weight: 400;
+        font-size: 200px;
+        color: #7dfdf9;
+    }
+
+    40%{
+        font-family: "Kumar One Outline";
+        font-weight: 400;
+        font-size: 200px;
+        color: #0bcec8;
+    }
+
+
+
+
+    50%{
+        font-family: "Silkscreen";
+        font-weight: 400;
+        font-size: 200px;
+        color: #2020fb;
+
+    }
+
+    50%{
+        font-family: "Silkscreen";
+        font-weight: 400;
+        font-size: 200px;
+        color: #6565ff;
+
+    }
+
+    50%{
+        
+        font-weight: 400;
+        font-size: 200px;
+        color: #2020fb;
+
+    }
+
+
+
+    
+    65%{
+        font-family: "Stalinist One";
+        font-weight: 400;
+        font-size: 200px;
+        color: #f2410b;
+    }
+
+    68%{
+        font-family: "Stalinist One";
+        font-weight: 400;
+        font-size: 200px;
+        color: #fc7a52;
+    }
+
+    73%{
+        font-family: "Stalinist One";
+        font-weight: 400;
+        font-size: 200px;
+        color: #f44e1b;
+    }
+
+
+
+
+
+    80%{
+        font-family: "Eater";
+        font-weight: 400;
+        font-size: 200px;
+        color: #881fc1;
+    }
+
+    84%{
+        font-family: "Eater";
+        font-weight: 400;
+        font-size: 200px;
+        color: #ba56f0;
+    }
+    
+    90%{
+        font-family: "Eater";
+        font-weight: 400;
+        font-size: 200px;
+        color: #8322b7;
+    }
+
+    
+    93%{
+        font-family: "Alien Block", sans-serif;
+        font-weight: 400;
+        font-size: 200px;
+        color: #d11831;
+    }
+
+    93%{
+        font-family: "Alien Block", sans-serif;
+        font-weight: 400;
+        font-size: 200px;
+        color: #f04f65;
+    }
+    
+    100%{
+        font-family: "Alien Block", sans-serif;
+        font-weight: 400;
+        font-size: 200px;
+        color: #c10c24;
+    }
+}
+
+
+
+
+
+@keyframes myanimation {
+    0% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+        border-radius: 0 0 0 0;
+    }
+    25%{
+        background-color: red;
+        /* left: 300px; */
+        /* top: 0px; */
+        border-radius: 50% 0 0 0;
+    }
+    50%{
+        background-color: blue;
+        /* left: 300px; */
+        /* top: 300px; */
+        border-radius: 50% 50% 0 0;
+    }
+    75%{
+        background-color: green;
+        /* left: 0px; */
+        /* top: 300px; */
+        border-radius: 50% 50% 50% 0;
+    }
+
+
+    100%{
+        background-color: white;
+        left: 0px;
+        top: 0px;
+        border-radius: 50% 50% 50% 50%;
+    }
+}      

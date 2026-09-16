@@ -44,8 +44,34 @@
 #hero-name h1:hover{
     text-shadow: var(--bg-color) 0.65vw 0.6vw;
     -webkit-text-stroke: clamp(1px, 0.25vw, 5px) transparent;
-    color: var(--base-pink);
+    /* color: var(--base-pink); */
+
+    animation-name: hero_animation;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
 
+@keyframes hero_animation{
+    0%{
+        color: var(--base-pink);
+    }
 
-/* RESSPONSIVE DESIGN */
+    25%{
+        color: var(--base-orange);
+    }
+
+    50%{
+        color: var(--base-blue); 
+    }
+
+    75%{
+        color: var(--base-red);
+    }
+
+    100%{
+        color: var(--base-pink);
+    }
+}
+

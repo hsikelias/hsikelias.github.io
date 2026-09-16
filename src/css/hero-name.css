@@ -5,7 +5,7 @@
 
     width: 100%;
     margin-top: 5rem;
-    padding: 2rem clamp(1.5rem, 4vw, 4rem) 2.5rem;
+    padding: 0 2.5vw 2vw;
 }
 
 
@@ -14,13 +14,13 @@
     font-family: "BBH Hegarty", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-synthesis: none;
-    font-size: clamp(1rem, 21vw, 25rem);
+    font-size: 21vw;
     line-height: 1.1;
 
     color: var(--bg-color);
     -webkit-text-stroke: clamp(1px, 0.25vw, 5px) #000000;
 
-    text-shadow: var(--base-pink) 13px 12px;
+    text-shadow: var(--base-pink) 0.65vw 0.6vw;
 
     letter-spacing: 0.025em;
     margin: 0;
@@ -31,22 +31,18 @@
 #hero-name p{
     color: var(--base-pink);
     font-family: "Pixelify Sans", sans-serif;
-                /*    min     current  max */
-    font-size: clamp(0.8rem, 1.5vw, 2rem);
-    margin-left: 7rem;
-    margin-top: min(2rem, 1.5%);
-    max-width: 100%;
+    font-size: clamp(0.65rem, 1.5vw, 3rem);
+    line-height: 1.2;
+    margin: -1vw 0 0 10vw;
+    max-width: 90%;
     width: fit-content;
-
-    padding-bottom: 1rem;
-    margin-top: -1rem;
 }
 
 
 /* INTERACTIONS BELOW */
 
 #hero-name h1:hover{
-    text-shadow: var(--bg-color) 13px 12px;
+    text-shadow: var(--bg-color) 0.65vw 0.6vw;
     -webkit-text-stroke: clamp(1px, 0.25vw, 5px) transparent;
     color: var(--base-pink);
 }

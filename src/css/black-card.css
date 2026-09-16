@@ -11,46 +11,70 @@
 }
 
 
-/* Scale role labels and their offsets from one shared font size. */
+/* Keep the staggered labels proportional to the portrait on desktop. */
+#role-and-portrait{
+    position: relative;
+    min-height: 34vw;
+    isolation: isolate;
+}
+
 #hero-roles{
-    font-size: min(2vw, 1.8rem);
+    position: relative;
+    width: 43%;
+    height: 34vw;
+    font-size: 1.7vw;
+    z-index: 1;
 }
 
 #hero-roles .black-card{
+    position: absolute;
     font-size: inherit;
+    line-height: 1.25;
     padding: 0.2em 0.4em;
-    margin-bottom: 0.3em;
+    margin: 0;
+    white-space: nowrap;
 }
 
+#role-creativedev{ left: 5%; top: 18%; }
+#role-frontenddev{ left: 50%; top: 31%; }
+#role-uxuidev{ left: 7.5%; top: 42%; }
+#role-illustrator{ left: 64%; top: 48%; }
+#role-interdesigner{ left: 15%; top: 59%; }
+#role-digartist{ left: 56%; top: 79%; }
 
-#role-creativedev{
-    margin-left: 1.1em;
-    margin-top: 2.2em;
+#hero-portrait{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 63%;
 }
 
-#role-frontenddev{
-    margin-left: 6em;
-    margin-top: 1.1em;
+#hero-portrait img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-#role-uxuidev{
-    margin-top: 0.8em;
-    margin-left: 1.9em;
-}
+@media (max-width: 47.99rem){
+    #hero-roles{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        padding: 2rem 1.5rem;
+        font-size: clamp(0.875rem, 2.5vw, 1.2rem);
+    }
 
-#role-illustrator{
-    margin-left: 15.5em;
-    margin-top: -0.5em;
-}
+    #hero-roles .black-card{
+        position: static;
+        white-space: normal;
+    }
 
-#role-interdesigner{
-    margin-left: 5.5em;
-    margin-top: 1.1em;
-}
-
-#role-digartist{
-    margin-left: 16.4em;
-    margin-top: 1em;
+    #hero-portrait{
+        position: relative;
+        width: 100%;
+    }
 }
 
 

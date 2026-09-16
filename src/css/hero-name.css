@@ -47,7 +47,7 @@
     /* color: var(--base-pink); */
 
     animation-name: hero_animation;
-    animation-duration: 0.8s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 
@@ -58,15 +58,15 @@
         color: var(--base-pink);
     }
 
-    25%{
+    20%{
         color: var(--base-orange);
     }
 
-    50%{
+    40%{
         color: var(--base-blue); 
     }
 
-    75%{
+    60%{
         color: var(--base-red);
     }
 

@@ -168,9 +168,15 @@
     background-color: var(--base-red);
 }
 
+
+
+
 #selected-work-container a:hover{
     text-decoration: underline solid var(--base-blue) 6%;
 }
+
+
+
 
 #selected-work-container a::selection{
     color: var(--bg-color);
@@ -178,6 +184,33 @@
 }
 
 
-#selected-work-container .project-card > a:hover{
-    box-shadow: 10px 10px 0 var(--base-blue);
+#selected-work-container .project-card:hover > a{
+    animation-name: project-card-hover;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* ANIMATIONS */
+
+@keyframes project-card-hover{
+    0%{
+        box-shadow: 10px 10px 0 var(--base-pink);
+    }
+
+    20%{
+        box-shadow: 10px 10px 0 var(--base-orange);
+    }
+
+    40%{
+        box-shadow: 10px 10px 0 var(--base-blue);
+    }
+
+    60%{
+        box-shadow: 10px 10px 0 var(--base-red);
+    }
+
+    100%{
+        box-shadow: 10px 10px 0 var(--base-pink);
+    }
 }

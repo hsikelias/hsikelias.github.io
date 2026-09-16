@@ -1,4 +1,4 @@
-body{
+html, body{
     cursor: url("../assets/cursors/cursor_default_96.png"), auto;
 }
 
@@ -10,7 +10,7 @@ h1{
     cursor: url("../assets/cursors/cursor_hover_96.png"), pointer;
 }
 
-#selected-work-heading, #contact-heading-idea, #contact-heading-make{
+#selected-work-heading, #contact-heading-make{
     cursor: url("../assets/cursors/cursor_hover_96.png"), pointer;
 }
 
@@ -18,6 +18,6 @@ h1{
     cursor: url(../assets/cursors/cursor_click_32.png), pointer;
 }
 
-/* #contact-heading-idea{
-    cursor: url("../assets/cursor/cursor_hover_96.png"), pointer;
-} */
+.socials-group a img{
+    cursor: url(../assets/cursors/cursor_hover_96.png), pointer;
+}

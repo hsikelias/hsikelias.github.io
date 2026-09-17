@@ -70,14 +70,35 @@
     margin-top: 3rem;
 
     animation-name: fish-text-area-animation;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
 
 }
 
+
+/* FISH TEXT AREA BACKGROUND ANIMATION */
 @keyframes fish-text-area-animation{
     0%{
         background-color: var(--base-pink);
     }
+
+    25%{
+        background-color: #fb2074;
+    }
+
+    50%{
+        background-color: #ee2fb8;
+    }
+
+    75%{
+        background-color: #fe52cd;
+    }
+
+    100%{
+        background-color: var(--base-pink);
+    }
 }
+
 
 .fish-text-area ::selection{
     background-color: var(--bg-color);
@@ -89,6 +110,7 @@
 .fish-text-area p + p {
     margin-top: 0.75rem;
 }
+
 
 .fishes-black-block-area {
     display: flex;

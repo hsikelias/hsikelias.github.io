@@ -69,6 +69,14 @@
     padding: 1.5rem;
     margin-top: 3rem;
 
+    animation-name: fish-text-area-animation;
+
+}
+
+@keyframes fish-text-area-animation{
+    0%{
+        background-color: var(--base-pink);
+    }
 }
 
 .fish-text-area ::selection{

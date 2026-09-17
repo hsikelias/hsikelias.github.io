@@ -15,4 +15,5 @@ File Structure:
 # Credits
 
 - Huge thanks to **Alex Pierce**, his [portfolio](https://thegeekdesigner.com/) contributed to a lot of ideas while working on my portfolio. 
+- I got the noise filter idea after looking at Marlène Bruhat's [portfolio](https://marvinx.com/en/).
 - Also thanks to my friends for believing in my vision.

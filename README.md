@@ -12,6 +12,17 @@ File Structure:
 
 
 
+
+## Z-index
+
+- black cards in ```black-card.css```= 1
+- header in ```style.css`` = 999
+- noise filter in ```style.css``` = 1000
+- torn paper img in ```work-philosophy.css``` = 1
+- closing text in ```work-philosophy.css``` = 2
+
+
+
 # Credits
 
 - Huge thanks to **Alex Pierce**, his [portfolio](https://thegeekdesigner.com/) contributed to a lot of ideas while working on my portfolio. 

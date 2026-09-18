@@ -9,7 +9,7 @@
     font-size: 7.7vw;
     text-align: center;
 
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
 
 }
 
@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+#contact-btn{
+    margin-bottom: 3rem;
+}
+
 #contact-btn a{
     font-family: "Pixelify Sans", sans-serif;
     color: transparent;
@@ -36,6 +40,10 @@
     -webkit-text-stroke: 0.3rem var(--base-red);
     text-decoration: none;
     letter-spacing: 1rem;
+}
+
+#resume-btn{
+    margin-bottom:2rem;
 }
 
 #resume-btn a{

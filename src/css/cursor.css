@@ -21,3 +21,7 @@ h1{
 .socials-group a img{
     cursor: url(../assets/cursors/cursor_hover_96.png), pointer;
 }
+
+.closing-fish-layout{
+    cursor: url("/src/assets/cursors/cursor_hover_96.png"), auto;
+}

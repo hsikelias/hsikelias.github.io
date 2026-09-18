@@ -83,15 +83,15 @@
     }
 
     25%{
-        background-color: #fb2074;
+        background-color: #fb20ae;
     }
 
     50%{
-        background-color: #ee2fb8;
+        background-color: #fb0f81;
     }
 
     75%{
-        background-color: #fe52cd;
+        background-color: #f32d83;
     }
 
     100%{
@@ -140,6 +140,55 @@
     place-items: center;
     margin-top: 1.5rem;
     padding-bottom: clamp(3rem, 6vw, 6rem);
+    position: relative;
+}
+
+.closing-fish-layout:hover{
+    /* animation-name: orange-fish-hover; 
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear; */
+
+    transition-property: top;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+
+@keyframes orange-fish-hover {
+    0%{
+        top: -0.4rem;
+    }    
+
+    25%{
+        top: -0.9rem;
+    }
+
+    30%{
+        top: -1.2rem;
+    }
+    
+    50%{
+        top: -1.4rem;
+    }
+
+    75%{
+        top: -1.8rem;
+    }
+
+    85%{
+        top: -2.2rem;
+    }
+
+    95%{
+        top: -2.7rem;
+    }
+    
+    100%{
+        top: -3rem;
+    }
 }
 
 .closing-fish-layout > .closing-text,

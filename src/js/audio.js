@@ -2,7 +2,7 @@
 
 const hoverElements = document.querySelectorAll('.hover-sound');
 const hoverSound = new Audio('/src/assets/audio/hover-wavy.wav');
-hoverSound.volume = 0.5;
+hoverSound.volume = 0.2;
 
 
 hoverElements.forEach(element => {

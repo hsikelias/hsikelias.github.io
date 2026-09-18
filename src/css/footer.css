@@ -1,9 +1,59 @@
 #socials-group{
     display: flex;
-    gap: 5rem;
+    gap: 10rem;
 
     justify-content: center;
 
-    padding-top: 8rem;
+    padding-top: 12rem;
     padding-bottom: 15rem;
+
+}
+
+#socials-group a{
+    position: relative;
+    mix-blend-mode: multiply;
+}
+
+#socials-group a img{
+    display: block;
+}
+
+#email-btn, #insta-btn, #linkedin-btn, #github-btn, #letterboxd-btn, #spotify-btn{
+    position: relative;
+}
+
+#socials-group a img:hover{
+    animation-name: flash;
+    animation-duration: 600ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+
+} 
+
+#email-btn a:hover, #insta-btn:hover, #linkedin-btn:hover, #github-btn:hover, #letterboxd-btn:hover, #spotify-btn:hover{
+    animation-name: float;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+
+
+/* TODO: FLASH DOES NOT WORK T_T_T_T_T */
+@keyframes flash{
+    0%, 44%, 56%, 100%{
+        filter: brightness(1) saturate(1);
+    }
+
+    45%, 55%{
+        filter: brightness(10.5) saturate(10.5)
+                drop-shadow(0 0 5px rgba(255, 255, 255, 0.9));
+    }
+}
+
+@keyframes float{
+    from {transform: translate(0, 0px);}
+    50% {transform: translate(0, -5px);}
+    to {transform: translate(0, 0px);}  
 }

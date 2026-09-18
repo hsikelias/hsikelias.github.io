@@ -4,6 +4,7 @@
     position: relative;
     aspect-ratio: 880 / 620;
     overflow: hidden;
+
 }
 
 .fish-cutout img {
@@ -26,6 +27,7 @@
     transform: rotate(20deg);
     left: -10rem;
     top: -2rem;
+
 }
 
 .fish-blue {

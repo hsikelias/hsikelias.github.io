@@ -30,10 +30,10 @@
 
 #contact-btn a{
     font-family: "Pixelify Sans", sans-serif;
-    color: var(--base-red);
+    color: transparent;
     font-size: 14.35vw;
 
-    /* -webkit-text-stroke: 0.3rem var(--base-red); */
+    -webkit-text-stroke: 0.3rem var(--base-red);
     text-decoration: none;
     letter-spacing: 1rem;
 }
@@ -51,6 +51,10 @@
 
 
 /* INTERACTIONS */
+
+
+
+/* Selection */
 
 #contact-heading-idea::selection{
     background-color: var(--base-red);
@@ -73,4 +77,20 @@
 #resume-btn a::selection{
     background-color: var(--base-blue);
     color: var(--bg-color);
+}
+
+/* Hover */
+
+#contact-btn:hover{
+    text-decoration-style:dashed;
+}
+
+#contact-btn a:hover{
+    color: var(--base-red);
+    text-decoration-style:dashed;
+}
+
+#resume-btn a:hover{
+    color: var(--base-blue);
+    
 }

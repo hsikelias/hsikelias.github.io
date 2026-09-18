@@ -141,53 +141,36 @@
     margin-top: 1.5rem;
     padding-bottom: clamp(3rem, 6vw, 6rem);
     position: relative;
-}
-
-.closing-fish-layout:hover{
-    /* animation-name: orange-fish-hover; 
-    animation-duration: 0.9s;
+    animation-name: orange-fish-float; 
+    animation-duration: 0.7s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-    animation-timing-function: linear; */
-
-    transition-property: top;
-    transition-duration: 1s;
-    transition-delay: 0s;
-    transition-timing-function: linear;
+    animation-timing-function: linear;
 }
 
-
-@keyframes orange-fish-hover {
+@keyframes orange-fish-float {
     0%{
         top: -0.4rem;
     }    
 
-    25%{
+    20%{
         top: -0.9rem;
     }
 
-    30%{
+    40%{
         top: -1.2rem;
     }
     
-    50%{
+    60%{
         top: -1.4rem;
     }
 
-    75%{
+    80%{
         top: -1.8rem;
     }
 
-    85%{
-        top: -2.2rem;
-    }
-
-    95%{
-        top: -2.7rem;
-    }
-    
     100%{
-        top: -3rem;
+        top: -2rem;
     }
 }
 

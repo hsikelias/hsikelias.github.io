@@ -31,13 +31,17 @@
 
 } 
 
-#email-btn a:hover, #insta-btn:hover, #linkedin-btn:hover, #github-btn:hover, #letterboxd-btn:hover, #spotify-btn:hover{
+
+#email-btn:hover, #insta-btn:hover, #linkedin-btn:hover, #github-btn:hover, #letterboxd-btn:hover, #spotify-btn:hover{
     animation-name: float;
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 
+
+    mix-blend-mode: normal;
 }
+
 
 
 /* TODO: FLASH DOES NOT WORK T_T_T_T_T */
@@ -51,6 +55,7 @@
                 drop-shadow(0 0 5px rgba(255, 255, 255, 0.9));
     }
 }
+
 
 @keyframes float{
     from {transform: translate(0, 0px);}

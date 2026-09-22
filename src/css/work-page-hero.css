@@ -1,0 +1,19 @@
+#work{
+
+}
+
+
+#work h1{
+    padding-top: 18rem;
+    padding-left: 8rem;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 2rem;
+}
+
+
+
+#work h1 span{
+    text-decoration: line-through;
+    text-decoration-color: var(--base-red);
+}

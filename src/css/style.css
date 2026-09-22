@@ -24,7 +24,7 @@ html, body{
     background-color: var(--bg-color);
     width: 100%;
 
-    z-index: 999;
+    z-index: 997;
 }
 
 #nav-header ul{
@@ -71,7 +71,7 @@ html, body{
     width: 100vw;
 
     content:"";
-    opacity: .08;
+    opacity: .06;
     z-index: 1000;
 
     background: url(/src/assets/noise.gif);

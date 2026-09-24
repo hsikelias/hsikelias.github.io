@@ -10,7 +10,7 @@ h1{
     cursor: url("../assets/cursors/cursor_hover_96.png"), pointer;
 }
 
-#selected-work-heading, #contact-heading-make{
+#selected-work-heading{
     cursor: url("../assets/cursors/cursor_hover_96.png"), pointer;
 }
 
